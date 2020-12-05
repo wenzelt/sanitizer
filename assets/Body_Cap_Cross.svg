@@ -1,0 +1,22 @@
+<svg width="228" height="249" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_12_blur" x="-50%" y="-50%" width="200%" height="200%">
+   <feGaussianBlur stdDeviation="0"/>
+  </filter>
+  <filter id="svg_8_blur">
+   <feGaussianBlur stdDeviation="0.1"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="251" width="230" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill="#48cce4" stroke-width="0" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="null" d="m15.99778,163.98051c-0.96552,-95.17573 43.03247,-130.25941 103.31099,-130.25941c60.27853,0 91.72471,39.60658 92.69024,131.16399c0.96552,91.55741 -35.30828,75.98465 -95.58681,75.98465c-60.27853,0 -99.4489,18.28649 -100.41442,-76.88923z" id="svg_4" stroke="#000"/>
+  <path fill="#ffffff" stroke-linejoin="null" stroke-linecap="null" stroke-opacity="null" d="m54.10609,30.49161c0,-25.30956 -3.74558,-25.33472 58.63675,-25.61938c62.38233,-0.28466 60.75251,-0.2595 61.05476,25.61938c0.30225,25.87888 5.25683,19.0722 -59.84576,19.35686c-65.10258,0.28466 -59.84575,5.9527 -59.84575,-19.35686z" id="svg_6" stroke="#000" stroke-width="3"/>
+  <rect fill="#ffffff" stroke-width="0" stroke-opacity="null" x="104" y="114.5" width="20" height="47" id="svg_8" stroke="#000" filter="url(#svg_8_blur)"/>
+  <rect fill="#ffffff" stroke-width="0" stroke-opacity="null" x="104" y="114.5" width="20" height="47" id="svg_12" stroke="#000" transform="rotate(-90 113.99999237060551,138.00000000000003) " filter="url(#svg_12_blur)"/>
+ </g>
+</svg>
