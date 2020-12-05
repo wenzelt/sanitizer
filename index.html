@@ -6,27 +6,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styling.css">
+    <script src="JS/sanitizer_v0.01.js"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Hello, world!</title>
 
-    <script>
-        function squirt() {
-            document.getElementById('nozzle').style.animation = ""; 
-            document.getElementById('nozzle').style.animation = "MoveUpDown 1.0s ease-out 1";
-            document.getElementById('droplet').style.animation = "drawArc 1.0s reverse ease-in 1";
-            document.getElementById('droplet2').style.animation = "drawArc2 1.0s reverse ease-in 1";
-            document.getElementById('droplet3').style.animation = "drawArc3 1.0s reverse ease-in 1";
-            setTimeout(() => { document.getElementById('nozzle').style.animation = ""; 
-        
-            document.getElementById('droplet').style.animation = "";
-            document.getElementById('droplet2').style.animation = "";
-            document.getElementById('droplet3').style.animation = "";}, 1000);
-            
-        };
-    </script>
 
 
 </head>
