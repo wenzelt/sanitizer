@@ -91,10 +91,9 @@
     }
 }
 
-.container {
-    height: 95vh;
+#asset_container {
+    height: 90vh;
     position: relative;
-    border: 3px solid rgb(126, 228, 254);
     border-radius: 15px 50px;
 }
 
@@ -107,10 +106,9 @@
     transform: translate(-50%, -50%);
 }
 
-#footer {
+footer {
     position: fixed;
-    left: 0px;
-    bottom: 0px;
-    height: 5vh;
+    height: 100px;
+    bottom: 0;
     width: 100%;
 }
