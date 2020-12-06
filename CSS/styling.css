@@ -5,10 +5,11 @@
     position: absolute;
     top: 6vw;
     right: 8vw;
+    opacity: 0;
 }
 
 #nozzle {
-    opacity: 1;
+    opacity: 0;
     z-index: 2;
     position: relative;
     min-width: 30vw;
@@ -34,6 +35,7 @@
     }
     100% {
         transform: rotate(0deg) translateX(0px) rotate(0deg);
+        opacity: 1;
     }
 }
 
@@ -47,6 +49,7 @@
     }
     100% {
         transform: rotate(0deg) translateX(0px) rotate(0deg);
+        opacity: 1;
     }
 }
 
@@ -60,6 +63,7 @@
     }
     100% {
         transform: rotate(0deg) translateX(0px) rotate(0deg);
+        opacity: 1;
     }
 }
 
