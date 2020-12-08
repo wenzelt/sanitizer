@@ -1,0 +1,21 @@
+name: Deploy_Master
+  on: 
+    push: 
+      branches : master 
+
+jobs: 
+  job_one: 
+      name: Deploy 
+      runs-on: ubuntu-latest 
+      steps: 
+      - name: testing hetzner server ssh connection
+        uses: appleboy/ssh-action@master
+        with: 
+          host: 168.119.224.9
+          username: eddie
+          key: {{secrets.SANITIZER_GITHUB_SECRET}}
+          port: 22
+          script: | 
+            cd /var/www/sanitizer/
+            git pull origin master
+            git status
