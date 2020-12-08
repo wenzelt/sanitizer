@@ -17,5 +17,5 @@ jobs:
           port: 22
           script: | 
             cd /var/www/sanitizer/
-            git pull origin master
+            git pull origin main
             git status
