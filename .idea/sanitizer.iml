@@ -12,5 +12,7 @@
     <orderEntry type="library" name="popper.js" level="application" />
     <orderEntry type="library" name="02e749e68b" level="application" />
     <orderEntry type="library" name="bootstrap.bundle" level="application" />
+    <orderEntry type="library" name="buttons" level="application" />
+    <orderEntry type="library" name="jquery-3.5.1" level="application" />
   </component>
 </module>
