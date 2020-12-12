@@ -7,7 +7,6 @@
     right: 8vw;
     opacity: 0;
 }
-
 #nozzle {
     opacity: 1;
     z-index: 2;
@@ -16,7 +15,6 @@
     max-width: 30vw;
     top: 4vw;
 }
-
 #fluid {
     opacity: 1;
     z-index: 3;
@@ -24,7 +22,6 @@
     max-width: 30vw;
     position: relative;
 }
-
 @keyframes drawArc {
     0% {
         transform: rotate(0deg) translateX(10vw) translateY(+13vw) rotate(75deg);
@@ -38,7 +35,6 @@
         opacity: 1;
     }
 }
-
 @keyframes drawArc2 {
     0% {
         transform: rotate(0deg) translateX(14vw) translateY(+13vw) rotate(75deg);
@@ -52,7 +48,6 @@
         opacity: 1;
     }
 }
-
 @keyframes drawArc3 {
     0% {
         transform: rotate(0deg) translateX(12vw) translateY(+8vw) rotate(75deg);
@@ -66,7 +61,6 @@
         opacity: 1;
     }
 }
-
 @keyframes dissolve {
     0% {
         opacity: 0;
@@ -75,7 +69,6 @@
         opacity: 1;
     }
 }
-
 #droplet.animation {
     display: inline-block;
     margin: 0 0.5rem;
@@ -84,23 +77,19 @@
     animation-duration: 2s;
     /* don't forget to set a duration! */
 }
-
 @keyframes MoveUpDown {
-    0%,
-    100% {
+    0%, 100% {
         transform: translateY(0);
     }
     50% {
         transform: translateY(4vw);
     }
 }
-
 #asset_container {
     height: 95vh;
     position: relative;
     border-radius: 15px 50px;
 }
-
 .center {
     margin: 0;
     position: absolute;
